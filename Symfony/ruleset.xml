@@ -99,6 +99,16 @@
         <severity>0</severity>
     </rule>
 
+    <!--Removing priority function order (public > protected > private) -->
+    <rule ref="Symfony.Functions.ScopeOrder.Invalid">
+        <severity>0</severity>
+    </rule>
+
+    <!--Removing warning when licence is missing -->
+    <rule ref="Symfony.Commenting.License.Warning">
+        <severity>0</severity>
+    </rule>
+
     <rule ref="Symfony.Commenting.ClassComment.SpacingBeforeTags">
         <message>There should always be a description, followed by a blank line, before the tags of a class comment.</message>
     </rule>
